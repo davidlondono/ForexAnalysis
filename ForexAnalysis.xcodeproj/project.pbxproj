@@ -64,16 +64,16 @@
 		F8925C8C1FE99850005A9E4B /* PipCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipCalculatorViewController.swift; sourceTree = "<group>"; };
 		F8925C8E1FE99887005A9E4B /* PipCalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipCalculatorViewModel.swift; sourceTree = "<group>"; };
 		F8925C911FE99996005A9E4B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		F8AC00321FD82C7E00B00BCA /* ForexAnalisis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForexAnalisis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8AC00321FD82C7E00B00BCA /* ForexAnalysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForexAnalysis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8AC00351FD82C7E00B00BCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8AC003A1FD82C7E00B00BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8AC003C1FD82C7E00B00BCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8AC003F1FD82C7E00B00BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8AC00411FD82C7E00B00BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8AC00461FD82C7E00B00BCA /* ForexAnalisisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForexAnalisisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8AC00461FD82C7E00B00BCA /* ForexAnalysisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForexAnalysisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8AC004A1FD82C7E00B00BCA /* ForexAnalisisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexAnalisisTests.swift; sourceTree = "<group>"; };
 		F8AC004C1FD82C7E00B00BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8AC00511FD82C7E00B00BCA /* ForexAnalisisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForexAnalisisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8AC00511FD82C7E00B00BCA /* ForexAnalysisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForexAnalysisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8AC00551FD82C7E00B00BCA /* ForexAnalisisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexAnalisisUITests.swift; sourceTree = "<group>"; };
 		F8AC00571FD82C7E00B00BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8AC00671FD82CE700B00BCA /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
@@ -180,9 +180,9 @@
 		F8AC00291FD82C7E00B00BCA = {
 			isa = PBXGroup;
 			children = (
-				F8AC00341FD82C7E00B00BCA /* ForexAnalisis */,
-				F8AC00491FD82C7E00B00BCA /* ForexAnalisisTests */,
-				F8AC00541FD82C7E00B00BCA /* ForexAnalisisUITests */,
+				F8AC00341FD82C7E00B00BCA /* ForexAnalysis */,
+				F8AC00491FD82C7E00B00BCA /* ForexAnalysisTests */,
+				F8AC00541FD82C7E00B00BCA /* ForexAnalysisUITests */,
 				F8AC00331FD82C7E00B00BCA /* Products */,
 				9067794615D6374EDBA94BC1 /* Pods */,
 				8020F77EE4F416D5D585EC04 /* Frameworks */,
@@ -192,14 +192,14 @@
 		F8AC00331FD82C7E00B00BCA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F8AC00321FD82C7E00B00BCA /* ForexAnalisis.app */,
-				F8AC00461FD82C7E00B00BCA /* ForexAnalisisTests.xctest */,
-				F8AC00511FD82C7E00B00BCA /* ForexAnalisisUITests.xctest */,
+				F8AC00321FD82C7E00B00BCA /* ForexAnalysis.app */,
+				F8AC00461FD82C7E00B00BCA /* ForexAnalysisTests.xctest */,
+				F8AC00511FD82C7E00B00BCA /* ForexAnalysisUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F8AC00341FD82C7E00B00BCA /* ForexAnalisis */ = {
+		F8AC00341FD82C7E00B00BCA /* ForexAnalysis */ = {
 			isa = PBXGroup;
 			children = (
 				F8925C891FE99446005A9E4B /* Domain */,
@@ -210,25 +210,25 @@
 				F8AC003E1FD82C7E00B00BCA /* LaunchScreen.storyboard */,
 				F8AC00411FD82C7E00B00BCA /* Info.plist */,
 			);
-			path = ForexAnalisis;
+			path = ForexAnalysis;
 			sourceTree = "<group>";
 		};
-		F8AC00491FD82C7E00B00BCA /* ForexAnalisisTests */ = {
+		F8AC00491FD82C7E00B00BCA /* ForexAnalysisTests */ = {
 			isa = PBXGroup;
 			children = (
 				F8AC004A1FD82C7E00B00BCA /* ForexAnalisisTests.swift */,
 				F8AC004C1FD82C7E00B00BCA /* Info.plist */,
 			);
-			path = ForexAnalisisTests;
+			path = ForexAnalysisTests;
 			sourceTree = "<group>";
 		};
-		F8AC00541FD82C7E00B00BCA /* ForexAnalisisUITests */ = {
+		F8AC00541FD82C7E00B00BCA /* ForexAnalysisUITests */ = {
 			isa = PBXGroup;
 			children = (
 				F8AC00551FD82C7E00B00BCA /* ForexAnalisisUITests.swift */,
 				F8AC00571FD82C7E00B00BCA /* Info.plist */,
 			);
-			path = ForexAnalisisUITests;
+			path = ForexAnalysisUITests;
 			sourceTree = "<group>";
 		};
 		F8AC00631FD82CA300B00BCA /* Core */ = {
@@ -262,9 +262,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F8AC00311FD82C7E00B00BCA /* ForexAnalisis */ = {
+		F8AC00311FD82C7E00B00BCA /* ForexAnalysis */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8AC005A1FD82C7E00B00BCA /* Build configuration list for PBXNativeTarget "ForexAnalisis" */;
+			buildConfigurationList = F8AC005A1FD82C7E00B00BCA /* Build configuration list for PBXNativeTarget "ForexAnalysis" */;
 			buildPhases = (
 				6DD760CECF1E214820BA7C7E /* [CP] Check Pods Manifest.lock */,
 				F8AC002E1FD82C7E00B00BCA /* Sources */,
@@ -277,14 +277,14 @@
 			);
 			dependencies = (
 			);
-			name = ForexAnalisis;
+			name = ForexAnalysis;
 			productName = ForexAnalisis;
-			productReference = F8AC00321FD82C7E00B00BCA /* ForexAnalisis.app */;
+			productReference = F8AC00321FD82C7E00B00BCA /* ForexAnalysis.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F8AC00451FD82C7E00B00BCA /* ForexAnalisisTests */ = {
+		F8AC00451FD82C7E00B00BCA /* ForexAnalysisTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8AC005D1FD82C7E00B00BCA /* Build configuration list for PBXNativeTarget "ForexAnalisisTests" */;
+			buildConfigurationList = F8AC005D1FD82C7E00B00BCA /* Build configuration list for PBXNativeTarget "ForexAnalysisTests" */;
 			buildPhases = (
 				E3D652FAF3EA1B8EF564A9F8 /* [CP] Check Pods Manifest.lock */,
 				F8AC00421FD82C7E00B00BCA /* Sources */,
@@ -298,14 +298,14 @@
 			dependencies = (
 				F8AC00481FD82C7E00B00BCA /* PBXTargetDependency */,
 			);
-			name = ForexAnalisisTests;
+			name = ForexAnalysisTests;
 			productName = ForexAnalisisTests;
-			productReference = F8AC00461FD82C7E00B00BCA /* ForexAnalisisTests.xctest */;
+			productReference = F8AC00461FD82C7E00B00BCA /* ForexAnalysisTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F8AC00501FD82C7E00B00BCA /* ForexAnalisisUITests */ = {
+		F8AC00501FD82C7E00B00BCA /* ForexAnalysisUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8AC00601FD82C7E00B00BCA /* Build configuration list for PBXNativeTarget "ForexAnalisisUITests" */;
+			buildConfigurationList = F8AC00601FD82C7E00B00BCA /* Build configuration list for PBXNativeTarget "ForexAnalysisUITests" */;
 			buildPhases = (
 				2296F6D6DCCD4308183F554C /* [CP] Check Pods Manifest.lock */,
 				F8AC004D1FD82C7E00B00BCA /* Sources */,
@@ -319,9 +319,9 @@
 			dependencies = (
 				F8AC00531FD82C7E00B00BCA /* PBXTargetDependency */,
 			);
-			name = ForexAnalisisUITests;
+			name = ForexAnalysisUITests;
 			productName = ForexAnalisisUITests;
-			productReference = F8AC00511FD82C7E00B00BCA /* ForexAnalisisUITests.xctest */;
+			productReference = F8AC00511FD82C7E00B00BCA /* ForexAnalysisUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -350,7 +350,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F8AC002D1FD82C7E00B00BCA /* Build configuration list for PBXProject "ForexAnalisis" */;
+			buildConfigurationList = F8AC002D1FD82C7E00B00BCA /* Build configuration list for PBXProject "ForexAnalysis" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -363,9 +363,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F8AC00311FD82C7E00B00BCA /* ForexAnalisis */,
-				F8AC00451FD82C7E00B00BCA /* ForexAnalisisTests */,
-				F8AC00501FD82C7E00B00BCA /* ForexAnalisisUITests */,
+				F8AC00311FD82C7E00B00BCA /* ForexAnalysis */,
+				F8AC00451FD82C7E00B00BCA /* ForexAnalysisTests */,
+				F8AC00501FD82C7E00B00BCA /* ForexAnalysisUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -609,12 +609,12 @@
 /* Begin PBXTargetDependency section */
 		F8AC00481FD82C7E00B00BCA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F8AC00311FD82C7E00B00BCA /* ForexAnalisis */;
+			target = F8AC00311FD82C7E00B00BCA /* ForexAnalysis */;
 			targetProxy = F8AC00471FD82C7E00B00BCA /* PBXContainerItemProxy */;
 		};
 		F8AC00531FD82C7E00B00BCA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F8AC00311FD82C7E00B00BCA /* ForexAnalisis */;
+			target = F8AC00311FD82C7E00B00BCA /* ForexAnalysis */;
 			targetProxy = F8AC00521FD82C7E00B00BCA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -794,7 +794,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForexAnalisis.app/ForexAnalisis";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForexAnalysis.app/ForexAnalysis";
 			};
 			name = Debug;
 		};
@@ -812,7 +812,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForexAnalisis.app/ForexAnalisis";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForexAnalysis.app/ForexAnalysis";
 			};
 			name = Release;
 		};
@@ -853,7 +853,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F8AC002D1FD82C7E00B00BCA /* Build configuration list for PBXProject "ForexAnalisis" */ = {
+		F8AC002D1FD82C7E00B00BCA /* Build configuration list for PBXProject "ForexAnalysis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8AC00581FD82C7E00B00BCA /* Debug */,
@@ -862,7 +862,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8AC005A1FD82C7E00B00BCA /* Build configuration list for PBXNativeTarget "ForexAnalisis" */ = {
+		F8AC005A1FD82C7E00B00BCA /* Build configuration list for PBXNativeTarget "ForexAnalysis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8AC005B1FD82C7E00B00BCA /* Debug */,
@@ -871,7 +871,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8AC005D1FD82C7E00B00BCA /* Build configuration list for PBXNativeTarget "ForexAnalisisTests" */ = {
+		F8AC005D1FD82C7E00B00BCA /* Build configuration list for PBXNativeTarget "ForexAnalysisTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8AC005E1FD82C7E00B00BCA /* Debug */,
@@ -880,7 +880,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8AC00601FD82C7E00B00BCA /* Build configuration list for PBXNativeTarget "ForexAnalisisUITests" */ = {
+		F8AC00601FD82C7E00B00BCA /* Build configuration list for PBXNativeTarget "ForexAnalysisUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8AC00611FD82C7E00B00BCA /* Debug */,
