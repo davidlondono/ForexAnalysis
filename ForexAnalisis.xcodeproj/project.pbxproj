@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15539994072C125864E86989 /* Pods_ForexAnalisisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375109EACB8BC0D64B765580 /* Pods_ForexAnalisisTests.framework */; };
+		596B27BF543A012B55179EE3 /* Pods_ForexAnalisis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26574389317D3CE0E22F71A5 /* Pods_ForexAnalisis.framework */; };
+		A4E8AF8812B87AEA4E51B1DD /* Pods_ForexAnalisisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AD726A2CD568484252D64F /* Pods_ForexAnalisisUITests.framework */; };
+		F84189EA202B41BA00E2CBE8 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84189E9202B41BA00E2CBE8 /* Operators.swift */; };
+		F87655A72007A5B10045EC5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87655A62007A5B10045EC5C /* ViewController.swift */; };
+		F87655A92007AC890045EC5C /* +String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87655A82007AC890045EC5C /* +String.swift */; };
+		F8925C851FE993DE005A9E4B /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8925C841FE993DE005A9E4B /* AppCoordinator.swift */; };
+		F8925C881FE99426005A9E4B /* +UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8925C871FE99426005A9E4B /* +UIViewController.swift */; };
+		F8925C8D1FE99850005A9E4B /* PipCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8925C8C1FE99850005A9E4B /* PipCalculatorViewController.swift */; };
+		F8925C8F1FE99887005A9E4B /* PipCalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8925C8E1FE99887005A9E4B /* PipCalculatorViewModel.swift */; };
+		F8925C921FE99996005A9E4B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8925C911FE99996005A9E4B /* ViewModel.swift */; };
 		F8AC00361FD82C7E00B00BCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC00351FD82C7E00B00BCA /* AppDelegate.swift */; };
-		F8AC00381FD82C7E00B00BCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC00371FD82C7E00B00BCA /* ViewController.swift */; };
 		F8AC003B1FD82C7E00B00BCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8AC00391FD82C7E00B00BCA /* Main.storyboard */; };
 		F8AC003D1FD82C7E00B00BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8AC003C1FD82C7E00B00BCA /* Assets.xcassets */; };
 		F8AC00401FD82C7E00B00BCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8AC003E1FD82C7E00B00BCA /* LaunchScreen.storyboard */; };
 		F8AC004B1FD82C7E00B00BCA /* ForexAnalisisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC004A1FD82C7E00B00BCA /* ForexAnalisisTests.swift */; };
 		F8AC00561FD82C7E00B00BCA /* ForexAnalisisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC00551FD82C7E00B00BCA /* ForexAnalisisUITests.swift */; };
+		F8AC00681FD82CE700B00BCA /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC00671FD82CE700B00BCA /* Coordinator.swift */; };
+		F8AC006A1FD8369000B00BCA /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC00691FD8369000B00BCA /* MainCoordinator.swift */; };
+		F8AFD44720082C8400655855 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AFD44620082C8400655855 /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +47,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AFD5D04C4A639DF2CEB45F1 /* Pods-ForexAnalisisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForexAnalisisUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ForexAnalisisUITests/Pods-ForexAnalisisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		26574389317D3CE0E22F71A5 /* Pods_ForexAnalisis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForexAnalisis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		375109EACB8BC0D64B765580 /* Pods_ForexAnalisisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForexAnalisisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49AD726A2CD568484252D64F /* Pods_ForexAnalisisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForexAnalisisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A07B1AAEF93C09BA1A973C9 /* Pods-ForexAnalisis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForexAnalisis.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForexAnalisis/Pods-ForexAnalisis.release.xcconfig"; sourceTree = "<group>"; };
+		5E8D3817A03D616E35FDD180 /* Pods-ForexAnalisisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForexAnalisisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForexAnalisisUITests/Pods-ForexAnalisisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7B64F01631672CB659A92EC3 /* Pods-ForexAnalisis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForexAnalisis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ForexAnalisis/Pods-ForexAnalisis.debug.xcconfig"; sourceTree = "<group>"; };
+		AFB19E5A1E1C9490754EFA64 /* Pods-ForexAnalisisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForexAnalisisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ForexAnalisisTests/Pods-ForexAnalisisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D115F7E8E8AF8FC5F437D9EF /* Pods-ForexAnalisisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForexAnalisisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForexAnalisisTests/Pods-ForexAnalisisTests.release.xcconfig"; sourceTree = "<group>"; };
+		F84189E9202B41BA00E2CBE8 /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		F87655A62007A5B10045EC5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F87655A82007AC890045EC5C /* +String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+String.swift"; sourceTree = "<group>"; };
+		F8925C841FE993DE005A9E4B /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		F8925C871FE99426005A9E4B /* +UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+UIViewController.swift"; sourceTree = "<group>"; };
+		F8925C8C1FE99850005A9E4B /* PipCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipCalculatorViewController.swift; sourceTree = "<group>"; };
+		F8925C8E1FE99887005A9E4B /* PipCalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipCalculatorViewModel.swift; sourceTree = "<group>"; };
+		F8925C911FE99996005A9E4B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		F8AC00321FD82C7E00B00BCA /* ForexAnalisis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForexAnalisis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8AC00351FD82C7E00B00BCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F8AC00371FD82C7E00B00BCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F8AC003A1FD82C7E00B00BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8AC003C1FD82C7E00B00BCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8AC003F1FD82C7E00B00BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +76,9 @@
 		F8AC00511FD82C7E00B00BCA /* ForexAnalisisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForexAnalisisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8AC00551FD82C7E00B00BCA /* ForexAnalisisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexAnalisisUITests.swift; sourceTree = "<group>"; };
 		F8AC00571FD82C7E00B00BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8AC00671FD82CE700B00BCA /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F8AC00691FD8369000B00BCA /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		F8AFD44620082C8400655855 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				596B27BF543A012B55179EE3 /* Pods_ForexAnalisis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15539994072C125864E86989 /* Pods_ForexAnalisisTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +102,81 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4E8AF8812B87AEA4E51B1DD /* Pods_ForexAnalisisUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8020F77EE4F416D5D585EC04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26574389317D3CE0E22F71A5 /* Pods_ForexAnalisis.framework */,
+				375109EACB8BC0D64B765580 /* Pods_ForexAnalisisTests.framework */,
+				49AD726A2CD568484252D64F /* Pods_ForexAnalisisUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9067794615D6374EDBA94BC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B64F01631672CB659A92EC3 /* Pods-ForexAnalisis.debug.xcconfig */,
+				4A07B1AAEF93C09BA1A973C9 /* Pods-ForexAnalisis.release.xcconfig */,
+				AFB19E5A1E1C9490754EFA64 /* Pods-ForexAnalisisTests.debug.xcconfig */,
+				D115F7E8E8AF8FC5F437D9EF /* Pods-ForexAnalisisTests.release.xcconfig */,
+				0AFD5D04C4A639DF2CEB45F1 /* Pods-ForexAnalisisUITests.debug.xcconfig */,
+				5E8D3817A03D616E35FDD180 /* Pods-ForexAnalisisUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8925C861FE99414005A9E4B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F8925C871FE99426005A9E4B /* +UIViewController.swift */,
+				F87655A82007AC890045EC5C /* +String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F8925C891FE99446005A9E4B /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				F8925C901FE9988D005A9E4B /* ViewModels */,
+				F8925C8B1FE99476005A9E4B /* Storyboards */,
+				F8925C8A1FE9945B005A9E4B /* Views */,
+				F8AC00661FD82CC700B00BCA /* Coordinators */,
+				F8AFD44620082C8400655855 /* Store.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		F8925C8A1FE9945B005A9E4B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8925C8C1FE99850005A9E4B /* PipCalculatorViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8925C8B1FE99476005A9E4B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F8AC00391FD82C7E00B00BCA /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F8925C901FE9988D005A9E4B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F8925C8E1FE99887005A9E4B /* PipCalculatorViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		F8AC00291FD82C7E00B00BCA = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +184,8 @@
 				F8AC00491FD82C7E00B00BCA /* ForexAnalisisTests */,
 				F8AC00541FD82C7E00B00BCA /* ForexAnalisisUITests */,
 				F8AC00331FD82C7E00B00BCA /* Products */,
+				9067794615D6374EDBA94BC1 /* Pods */,
+				8020F77EE4F416D5D585EC04 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +202,10 @@
 		F8AC00341FD82C7E00B00BCA /* ForexAnalisis */ = {
 			isa = PBXGroup;
 			children = (
+				F8925C891FE99446005A9E4B /* Domain */,
+				F8AC00641FD82CAD00B00BCA /* Utils */,
+				F8AC00631FD82CA300B00BCA /* Core */,
 				F8AC00351FD82C7E00B00BCA /* AppDelegate.swift */,
-				F8AC00371FD82C7E00B00BCA /* ViewController.swift */,
-				F8AC00391FD82C7E00B00BCA /* Main.storyboard */,
 				F8AC003C1FD82C7E00B00BCA /* Assets.xcassets */,
 				F8AC003E1FD82C7E00B00BCA /* LaunchScreen.storyboard */,
 				F8AC00411FD82C7E00B00BCA /* Info.plist */,
@@ -125,6 +231,34 @@
 			path = ForexAnalisisUITests;
 			sourceTree = "<group>";
 		};
+		F8AC00631FD82CA300B00BCA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F8AC00671FD82CE700B00BCA /* Coordinator.swift */,
+				F8925C911FE99996005A9E4B /* ViewModel.swift */,
+				F87655A62007A5B10045EC5C /* ViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F8AC00641FD82CAD00B00BCA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F8925C861FE99414005A9E4B /* Extensions */,
+				F8925C841FE993DE005A9E4B /* AppCoordinator.swift */,
+				F84189E9202B41BA00E2CBE8 /* Operators.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F8AC00661FD82CC700B00BCA /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				F8AC00691FD8369000B00BCA /* MainCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8AC005A1FD82C7E00B00BCA /* Build configuration list for PBXNativeTarget "ForexAnalisis" */;
 			buildPhases = (
+				6DD760CECF1E214820BA7C7E /* [CP] Check Pods Manifest.lock */,
 				F8AC002E1FD82C7E00B00BCA /* Sources */,
 				F8AC002F1FD82C7E00B00BCA /* Frameworks */,
 				F8AC00301FD82C7E00B00BCA /* Resources */,
+				A48935B5289F4D9CBC5DEB3B /* [CP] Embed Pods Frameworks */,
+				C35949E23EE06935973465B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +286,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8AC005D1FD82C7E00B00BCA /* Build configuration list for PBXNativeTarget "ForexAnalisisTests" */;
 			buildPhases = (
+				E3D652FAF3EA1B8EF564A9F8 /* [CP] Check Pods Manifest.lock */,
 				F8AC00421FD82C7E00B00BCA /* Sources */,
 				F8AC00431FD82C7E00B00BCA /* Frameworks */,
 				F8AC00441FD82C7E00B00BCA /* Resources */,
+				E18693CDE7D434EC49544BC0 /* [CP] Embed Pods Frameworks */,
+				C56FA65A4F44788E97E5AE70 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +307,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8AC00601FD82C7E00B00BCA /* Build configuration list for PBXNativeTarget "ForexAnalisisUITests" */;
 			buildPhases = (
+				2296F6D6DCCD4308183F554C /* [CP] Check Pods Manifest.lock */,
 				F8AC004D1FD82C7E00B00BCA /* Sources */,
 				F8AC004E1FD82C7E00B00BCA /* Frameworks */,
 				F8AC004F1FD82C7E00B00BCA /* Resources */,
+				80A29D03940E98612ABD20A9 /* [CP] Embed Pods Frameworks */,
+				7B19DDAB622A426431EE7823 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +397,194 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2296F6D6DCCD4308183F554C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ForexAnalisisUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DD760CECF1E214820BA7C7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ForexAnalisis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B19DDAB622A426431EE7823 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ForexAnalisisUITests/Pods-ForexAnalisisUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80A29D03940E98612ABD20A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ForexAnalisisUITests/Pods-ForexAnalisisUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ForexAnalisisUITests/Pods-ForexAnalisisUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A48935B5289F4D9CBC5DEB3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ForexAnalisis/Pods-ForexAnalisis-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxKeyboard/RxKeyboard.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRealm/RxRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwiftExt/RxSwiftExt.framework",
+				"${BUILT_PRODUCTS_DIR}/RxViewModel/RxViewModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxKeyboard.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwiftExt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxViewModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ForexAnalisis/Pods-ForexAnalisis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C35949E23EE06935973465B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ForexAnalisis/Pods-ForexAnalisis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C56FA65A4F44788E97E5AE70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ForexAnalisisTests/Pods-ForexAnalisisTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E18693CDE7D434EC49544BC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ForexAnalisisTests/Pods-ForexAnalisisTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3D652FAF3EA1B8EF564A9F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ForexAnalisisTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F8AC002E1FD82C7E00B00BCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8AC00381FD82C7E00B00BCA /* ViewController.swift in Sources */,
+				F87655A72007A5B10045EC5C /* ViewController.swift in Sources */,
+				F8925C921FE99996005A9E4B /* ViewModel.swift in Sources */,
+				F87655A92007AC890045EC5C /* +String.swift in Sources */,
+				F8925C8D1FE99850005A9E4B /* PipCalculatorViewController.swift in Sources */,
+				F8AC006A1FD8369000B00BCA /* MainCoordinator.swift in Sources */,
+				F84189EA202B41BA00E2CBE8 /* Operators.swift in Sources */,
+				F8925C881FE99426005A9E4B /* +UIViewController.swift in Sources */,
+				F8AFD44720082C8400655855 /* Store.swift in Sources */,
+				F8925C851FE993DE005A9E4B /* AppCoordinator.swift in Sources */,
 				F8AC00361FD82C7E00B00BCA /* AppDelegate.swift in Sources */,
+				F8925C8F1FE99887005A9E4B /* PipCalculatorViewModel.swift in Sources */,
+				F8AC00681FD82CE700B00BCA /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +748,13 @@
 		};
 		F8AC005B1FD82C7E00B00BCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B64F01631672CB659A92EC3 /* Pods-ForexAnalisis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D2J7V42XTN;
 				INFOPLIST_FILE = ForexAnalisis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dalon.ForexAnalisis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,11 +765,13 @@
 		};
 		F8AC005C1FD82C7E00B00BCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A07B1AAEF93C09BA1A973C9 /* Pods-ForexAnalisis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D2J7V42XTN;
 				INFOPLIST_FILE = ForexAnalisis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dalon.ForexAnalisis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,8 +782,9 @@
 		};
 		F8AC005E1FD82C7E00B00BCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFB19E5A1E1C9490754EFA64 /* Pods-ForexAnalisisTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D2J7V42XTN;
@@ -471,8 +800,9 @@
 		};
 		F8AC005F1FD82C7E00B00BCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D115F7E8E8AF8FC5F437D9EF /* Pods-ForexAnalisisTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D2J7V42XTN;
@@ -488,8 +818,9 @@
 		};
 		F8AC00611FD82C7E00B00BCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AFD5D04C4A639DF2CEB45F1 /* Pods-ForexAnalisisUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D2J7V42XTN;
 				INFOPLIST_FILE = ForexAnalisisUITests/Info.plist;
@@ -504,8 +835,9 @@
 		};
 		F8AC00621FD82C7E00B00BCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E8D3817A03D616E35FDD180 /* Pods-ForexAnalisisUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D2J7V42XTN;
 				INFOPLIST_FILE = ForexAnalisisUITests/Info.plist;
